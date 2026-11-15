@@ -1,0 +1,14 @@
+# LangChain 1.x agent and model factory APIs.
+langchain==1.5.0
+# OpenAI chat wrapper; this release supports Python 3.10+.
+langchain-openai==1.3.0
+# Groq chat wrapper; also provides the unified LangChain interface.
+langchain-groq==1.1.3
+# Provider SDK used directly by Layer 0 examples.
+openai==2.26.0
+# Provider SDK used directly by Layer 0 examples.
+groq==0.30.0
+# Loads the workspace .env file without overriding shell environment values.
+python-dotenv==1.2.2
+
+# Optional Layer 3 dependency: see docs/01-setup.md for Python support details.
